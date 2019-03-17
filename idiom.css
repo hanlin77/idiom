@@ -1,0 +1,125 @@
+*{
+    font-family: "Arial","SimHei";
+}
+header{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 30px;
+    color: #043c39;
+}
+#levelDiv{
+    height: 28px;
+    margin-top: 20px;
+    text-align: center;
+    color: #043c39;
+}
+#levelDiv p{
+    display: none;
+    height: 28px;
+    font-size: 20px;
+}
+#contentDiv{
+    height: 260px;
+    width: 500px;
+    border: solid 1px #34908a;
+    border-radius: 4px;
+    margin: 10px auto;
+}
+#contentDiv ul{
+    height: 240px;
+    width: 480px;
+    background: #34908a;
+    border-radius: 4px;
+    margin: 5px auto;
+    padding: 5px;
+}
+#contentDiv ul li{
+    float: left;
+    list-style: none;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: #99d8d4;
+    color: #043c39;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    margin: 5px;
+    box-shadow: 1px 1px 2px #7fb4b1;
+    cursor: default;
+    display: none;
+}
+#contentDiv ul .doneLi{
+    display: none;
+}
+#contentDiv ul li p{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+}
+#contentDiv ul .downLi{
+    float: left;
+    list-style: none;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: #66aba7;
+    color: #0b4b48;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    margin: 5px;
+    cursor: default;
+    box-shadow: 2px 2px 3px #599793 inset;
+}
+#startBtn{
+    height: 60px;
+    width: 150px;
+    background: #99d8d4;
+    color: #043c39;
+    border: solid 1px #99d8d4;
+    border-radius: 5px;
+    font-size: 24px;
+    float: left;
+    position: relative;
+    left: 175px;
+    top: 100px;
+}
+#tipsDiv{
+    text-align: center;
+    color: #043c39;
+    width: 500px;
+    margin: 30px auto;
+    display: none;
+}
+#endWindow,#answerWindow{
+    height: 100px;
+    width: 200px;
+    background: #fff;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    position: absolute;
+    top: 210px;
+    font-size: 24px;
+    line-height: 100px;
+    text-align: center;
+    display: none;
+}
+#answerDiv{
+    text-align: center;
+}
+#answerBtn{
+    height: 30px;
+    width: 80px;
+    background: #99d8d4;
+    color: #043c39;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 1px 1px 2px #7fb4b1;
+    margin: 0 auto;
+    display: none;
+    outline: none;
+}
